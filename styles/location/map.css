@@ -1,0 +1,150 @@
+.map {
+    margin-bottom: 120px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-container svg {
+    max-width: 100%;
+}
+
+.map-item {
+    position: absolute;
+    padding: 22px 38px;
+    background-color: var(--yellow);
+}
+
+.map-item-newYork {
+    top: 13.7%;
+    right: 69.8%;
+}
+
+.map-item-london {
+    top: 3%;
+    right: 48.9%;
+}
+
+.map-item-yokohama {
+    top: 14%;
+    right: 5.8%;
+}
+
+.map-item-jakarta {
+    top: 45.8%;
+    right: 13.6%;
+}
+
+
+.map-item::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 41%;
+    border-style: solid;
+    border-width: 20px 15px 0 15px;
+    border-color: var(--yellow) transparent transparent transparent;
+}
+
+.map-item-mobile-content {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-item-mobile-content-town {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-yellow);
+    padding: 22px 0px;
+    width: 100%;
+}
+
+.map-item-mobile {
+    display: none;
+    position: absolute;
+    content: '';
+    padding: 7px;
+    background-color: var(--yellow);
+    border-radius: 100%;
+}
+
+
+
+
+
+@media (max-width: 1400px) {}
+
+
+@media (max-width: 768px) {
+
+    .map-container svg {
+        max-height: 345px;
+    }
+
+    .map-item {
+        padding: 8px 32px;
+        font-size: 13px;
+    }
+
+    .map-item-newYork {
+        top: 26.9%;
+        right: 71%;
+    }
+
+    .map-item-london {
+        top: 20.2%;
+        right: 48.9%;
+    }
+
+    .map-item-yokohama {
+        top: 26%;
+        right: 5.9%;
+    }
+
+    .map-item-jakarta {
+        top: 46.3%;
+        right: 13.7%;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .map-container svg {
+        max-height: 145px;
+    }
+
+    .map-item-mobile {
+        display: block;
+    }
+
+    .map-item-mobile-content {
+        display: block;
+    }
+
+    .map-item {
+        display: none;
+    }
+
+    .map-item-mobile-newYork {
+        top: 7%;
+        left: 19%;
+    }
+
+    .map-item-mobile-london {
+        top: 5%;
+        left: 41%;
+    }
+
+    .map-item-mobile-yokohama {
+        top: 8%;
+        right: 12%;
+    }
+
+    .map-item-mobile-jakarta {
+        top: 15%;
+        right: 17%;
+    }
+}

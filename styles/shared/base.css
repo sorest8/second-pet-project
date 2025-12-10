@@ -1,0 +1,143 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--nd-font);
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--dark);
+}
+
+.body-container {
+    margin: 0 165px;
+}
+
+:root {
+    --yellow: #FCB72B;
+    --dark: #495567;
+    --dim-grey: #939CAA;
+    --light-grey: #E5ECF4;
+    --snow: #F2F5F9;
+    --light-yellow: #FFF4DF;
+    --main-font: 'Space Mono';
+    --nd-font: 'Lexend Deca';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: var(--dim-grey);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+h1 {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--dark);
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--dark);
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.79px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--dark);
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -1.07px;
+    font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--dark);
+    margin-top: 0;
+}
+
+
+.main-btn {
+    background-color: var(--yellow);
+    padding: 14px 47px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid transparent;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+a {
+    color: var(--dim-grey);
+    text-decoration: none;
+}
+
+a:active {
+    color: var(--yellow);
+}
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .body-container {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.79px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.43px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 49px;
+        letter-spacing: -1.07px;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.8px;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}

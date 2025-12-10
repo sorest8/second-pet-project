@@ -1,0 +1,68 @@
+.telemetry__reverse {
+    position: relative;
+}
+
+.telemetry-content__reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.telemetry-content-left__reverse {
+    margin-right: 0;
+    margin-left: 220px;
+}
+
+.telemetry-content-decor-arrow__reverse {
+    left: 0%;
+    bottom: 73%;
+}
+
+.telemetry-content-decor-halfCircle__reverse {
+    transform: rotate(180deg);
+    right: 93%;
+    bottom: 0%;
+}
+
+
+@media (max-width: 1400px) {
+    .telemetry-content-left__reverse {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .telemetry-content__reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .telemetry-content-right-person {
+        margin-bottom: 25px;
+    }
+
+    .telemetry-content-left__reverse {
+        margin-left: 0px;
+    }
+
+    .telemetry-content-decor-halfCircle__reverse {
+        bottom: 44%;
+    }
+
+    .telemetry-content-decor-arrow__reverse {
+        left: 0%;
+        bottom: 84%;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .telemetry-content-decor-arrow__reverse {
+        left: 0%;
+        bottom: 56%;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}

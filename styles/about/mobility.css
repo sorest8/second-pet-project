@@ -1,0 +1,37 @@
+.mobility-content {
+    align-items: center;
+}
+
+.mobility-arrow {
+    bottom: 8%;
+    right: 0%;
+    transform: scaleY(-1);
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .mobility-arrow {
+        bottom: 40%;
+        right: 0%;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .mobility-arrow {
+            bottom: 52%;
+        right: -100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+       .mobility-arrow {
+        bottom: 62%;
+        right: -136%;
+    }
+}
+
+@media (max-width: 320px) {}

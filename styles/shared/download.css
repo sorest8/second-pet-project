@@ -1,0 +1,84 @@
+.download {
+    position: relative;
+    background-color: var(--dark);
+}
+
+.download-container {}
+
+.download-content-background {
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    z-index: 1;
+}
+
+.download-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 102px 0;
+}
+
+.download-content-left {
+    color: white;
+}
+
+.download-content-right {
+    display: flex;
+}
+
+.download-content-right-btn__apple {
+    margin-right: 18px;
+}
+
+.download-content-right-btn {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-grey);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--dark);
+    padding: 9px 16px;
+}
+
+.download-content-right-btn svg {
+    margin-right: 12px;
+}
+
+.download-content-right-btn-playMarket-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.download-content-right-btn-playMarket-text__appStore {
+    font-size: 20px;
+}
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .download-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .download-content-left {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .download-content-right-btn {
+        padding: 9px 4px;
+    }
+}
+
+@media (max-width: 320px) {}

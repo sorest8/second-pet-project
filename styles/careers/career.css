@@ -1,0 +1,70 @@
+.career {
+    margin-bottom: 160px;
+}
+
+.career-content-item-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--snow);
+    margin-bottom: 24px;
+}
+
+.career-content-item-left {
+    padding: 32px 0 35px 40px;
+}
+
+.career-content-item-right {
+    padding-right: 64px;
+    width: 180px;
+}
+
+.career-content-item-right-btn {
+    width: 100%;
+}
+
+.career-content-item-left__title {
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .career-content-item-inner {
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding: 36px 32px 32px 32px;
+}
+
+.career-content-item-left {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.career-content-item-left__title {
+    font-size: 18px;
+}
+
+.career-content-item-right {
+    padding-right: 0px;
+    max-width: 100%;
+}
+
+.career-content-item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}
